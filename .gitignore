@@ -58,3 +58,16 @@ coverage/
 *.tmp
 *.temp
 .cache/
+
+# PowerPoint lock files (Office temp)
+~$*.pptx
+~$*.docx
+~$*.xlsx
+
+# Intermediate voice-over audio clips (regenerate with: node add_voiceover.js)
+voiceover_audio/slide_*_raw.mp3
+voiceover_audio/slide_*_pad.wav
+voiceover_audio/concat_list.txt
+
+# Full voiceover audio (already merged into WithVoice.mp4)
+voiceover_audio/
