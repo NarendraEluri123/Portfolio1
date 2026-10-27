@@ -1,0 +1,33 @@
+{
+  "name": "yogesh-portfolio",
+  "version": "1.0.0",
+  "description": "Yogesh Kumar's Personal Portfolio with IBM Granite Agentic AI. Trainer: Eluri Narendra.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "open": "start index.html"
+  },
+  "keywords": [
+    "portfolio",
+    "ibm-granite",
+    "agentic-ai",
+    "machine-learning",
+    "watsonx",
+    "full-stack"
+  ],
+  "author": "Yogesh Kumar (Trainer: Eluri Narendra)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NarendraEluri123/Portfolio1.git"
+  },
+  "homepage": "https://NarendraEluri123.github.io/Portfolio1",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}

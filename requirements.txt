@@ -1,0 +1,46 @@
+# ============================================================
+#  requirements.txt — Yogesh Portfolio
+#  Node.js Package Dependencies
+#  Trainer: Eluri Narendra | Agentic AI SDLC
+# ============================================================
+#
+#  Install all dependencies with:
+#    npm install
+#
+#  This project uses ONLY Node.js built-in modules for the
+#  core server (http, https, fs, path, url) — zero mandatory
+#  runtime dependencies.
+#
+#  The single optional dependency below (dotenv) loads the
+#  .env file for local development.
+# ============================================================
+
+# Runtime dependency
+# Loads .env variables into process.env before server starts
+dotenv@^16.4.5
+
+# ============================================================
+#  Developer Tools (optional — install with: npm install -D)
+# ============================================================
+
+# Auto-restart server on file changes during development
+# nodemon@^3.1.4
+
+# Static file server for frontend-only testing
+# live-server@^1.2.2
+
+# ============================================================
+#  IBM watsonx.ai SDK (optional — for richer Granite integration)
+#  npm install @ibm-cloud/watsonx-ai
+# ============================================================
+
+# @ibm-cloud/watsonx-ai@^1.1.2
+
+# ============================================================
+#  Python equivalent (if using Python scripts alongside Node)
+# ============================================================
+# ibm-watson==8.1.0
+# ibm-cloud-sdk-core==3.18.0
+# python-dotenv==1.0.1
+# requests==2.32.3
+# flask==3.0.3
