@@ -172,17 +172,17 @@ const server = http.createServer(async (req, res) => {
 
 server.listen(PORT, () => {
   console.log('');
-  console.log('  ╔══════════════════════════════════════════════╗');
-  console.log('  ║  Yogesh Portfolio Server — IBM Granite AI   ║');
-  console.log('  ╠══════════════════════════════════════════════╣');
-  console.log(`  ║  URL     : http://localhost:${PORT}              ║`);
-  console.log(`  ║  Region  : ${IBM_REGION.replace('https://','').padEnd(34)}║`);
-  console.log(`  ║  Project : ${(IBM_PROJECT||'').substring(0,8)}...                       ║`);
-  console.log(`  ║  API Key : ${IBM_API_KEY ? '✅ Loaded' : '❌ Missing — check .env'}           ║`);
-  console.log('  ║  Trainer : Eluri Narendra                    ║');
-  console.log('  ╚══════════════════════════════════════════════╝');
-  console.log('');
-  console.log('  Health check: http://localhost:3000/api/status');
-  console.log('  Granite API : POST http://localhost:3000/api/granite');
+  console.log('  ================================================');
+  console.log('   Yogesh Portfolio Server - IBM Granite AI');
+  console.log('  ================================================');
+  console.log('   URL     : http://localhost:' + PORT);
+  console.log('   Region  : ' + IBM_REGION);
+  console.log('   Project : ' + (IBM_PROJECT || '').substring(0, 8) + '...');
+  console.log('   API Key : ' + (IBM_API_KEY ? 'Loaded OK' : 'MISSING - check .env'));
+  console.log('   Trainer : Eluri Narendra');
+  console.log('  ================================================');
+  console.log('   Health : http://localhost:' + PORT + '/api/status');
+  console.log('   Granite: POST http://localhost:' + PORT + '/api/granite');
+  console.log('  ================================================');
   console.log('');
 });
